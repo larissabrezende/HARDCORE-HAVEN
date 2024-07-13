@@ -6,12 +6,11 @@
   border: none;
   outline: none;
   scroll-behavior: smooth;
-  font-family: "Kanit", sans-serif;
 }
 
 @font-face {
-  font-family: "RockRoad";
-  src: url("fonts/RockRoad.woff") format("woff");
+  font-family: "Hardcore";
+  src: url("fonts/Hardcore.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
@@ -25,17 +24,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-family: Lexend;
   z-index: 100;
-  background-color: #ffffff;
-  border-bottom: 0.1rem solid rgb(0, 0, 0);
-  border-top: 0.1rem solid rgb(0, 0, 0);
+  background-color: #000000;
+  border-bottom: 0.2rem solid rgb(241, 196, 15);
+  border-top: 0.1rem solid rgb(241, 196, 15);
 }
 
 .logo {
   font-size: 2.5rem;
   margin-left: -1rem;
-  color: #000000;
-  font-family: "RockRoad";
+  color: #f1c40f;
+  font-family: "Hardcore";
   cursor: pointer;
   transition: font-size 0.3s ease, padding 0.3s ease;
 }
@@ -54,21 +54,15 @@
 }
 
 .navbar a {
-  font-size: 1.3rem;
-  color: #000000;
+  font-size: 1.2rem;
+  color: #f1c40f;
   margin-left: 2.3rem;
   font-weight: 700;
-  font-family: "Kanit", sans-serif;
-}
-
-.navbar a:hover,
-.navbar a.active {
-  color: #fbbf28;
 }
 
 #menu-icon {
   font-size: 3.6rem;
-  color: #000000;
+  color: #f1c40f;
   display: none;
 }
 
@@ -79,7 +73,7 @@
 
 .icons i {
   color: #000000;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-left: 1rem;
   cursor: pointer;
 }
@@ -89,4 +83,5 @@
   height: auto;
   margin-top: 11%;
 }
+
 
