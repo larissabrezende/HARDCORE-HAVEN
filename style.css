@@ -37,6 +37,12 @@
   color: #000000;
   font-family: "RockRoad";
   cursor: pointer;
+  transition: font-size 0.3s ease, padding 0.3s ease;
+}
+
+.logo.small {
+  font-size: 1.5rem;
+  padding: 0.5rem 0;
 }
 
 .navbar {
@@ -83,3 +89,4 @@
   height: auto;
   margin-top: 11%;
 }
+
